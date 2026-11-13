@@ -21,7 +21,7 @@ The game itself is already injected at that point, so nothing changes for it.
 
 ## Install
 
-1. Build (below) or take the DLL from a release.
+1. Build (below) or take the DLL from the [latest release](../../releases/latest).
 2. Copy `Com3d2DoorstopFix.dll` to `<COM3D2.5>\BepInEx\plugins`.
 3. KCES needs its own BepInEx 5 install (Doorstop `winhttp.dll`, `doorstop_config.ini`, `BepInEx\core`); this plugin does not install it.
 
@@ -36,4 +36,4 @@ References `BepInEx.dll` and the game's `UnityEngine.dll` / `UnityEngine.CoreMod
 ## Notes
 
 - Tested on COM3D2.5 with BepInEx 5.4.x only. Old COM3D2 has no KCES bridge and no CRC support, so there is nothing to fix there.
-- No license has been chosen yet.
+- Licensed under the MIT License (see `LICENSE`).
